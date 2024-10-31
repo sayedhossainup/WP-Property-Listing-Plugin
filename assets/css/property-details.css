@@ -1,0 +1,12 @@
+.cf-container .cf-field{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cf-field__head{
+    flex: 0 0 25% !important;
+    box-sizing: border-box;    
+}
+.cf-field__body {
+    flex: 0 0 75% !important;
+    box-sizing: border-box;    
+}

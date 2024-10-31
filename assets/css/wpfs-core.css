@@ -1,0 +1,290 @@
+
+/*--------------------------- 
+Add Plugin Front-End CSS here 
+---------------------------*/
+/*---------------------------
+CSS Filters
+---------------------------*/
+.blur {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+
+.brightness {
+    -webkit-filter: brightness(0.30);
+    filter: brightness(0.30);
+}
+
+.contrast {
+    -webkit-filter: contrast(180%);
+    filter: contrast(180%);
+}
+
+.grayscale {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+.huerotate {
+    -webkit-filter: hue-rotate(180deg);
+    filter: hue-rotate(180deg);
+}
+
+.invert {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
+
+.opacity {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+
+.saturate {
+    -webkit-filter: saturate(7);
+    filter: saturate(7);
+}
+
+.sepia {
+    -webkit-filter: sepia(100%);
+    filter: sepia(100%);
+}
+
+.shadow {
+    -webkit-filter: drop-shadow(8px 8px 10px green);
+    filter: drop-shadow(8px 8px 10px green);
+}
+.w-16{
+    flex: 0 0 16%;
+}
+.w-45{
+    flex: 0 0 45%;
+}
+.py-250{
+    padding-top: 250px;
+    padding-bottom: 250px;
+}
+.py-80{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.bg-white{
+    background: #fff;
+}
+.bg-blue{
+    background: blue;
+}
+.bg-dark{
+    background: #000;
+}
+.bg-red{
+    background: #f14e4e;
+}
+.bg-dark-of{
+   background: #231f1e; 
+}
+.text-white{
+    color: #fff;
+}
+.text-gray{
+    color:#DADEE2;
+}
+.comon-field{
+    border-radius: 5px;
+    height: 45px;
+    margin-bottom: 10px;
+    padding:0 8px;
+}
+
+form#properties-search-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%;
+    max-width: fit-content;
+}
+
+button.searchbtn {
+    height: 45px;
+    border-radius: 5px;
+    min-width: 150px;
+}
+h2.title-search-wrwpper {
+    color: var(--white, #FFF);
+    text-align: center;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+div#properties-search-results {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.property-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 30px;
+}
+.double-item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+a.property_title {
+    color: #000 !important;
+    font-size: 18px;
+}
+span.svg-icon svg path {
+    fill: #009aff;
+}
+span.svg-icon svg {
+    width: 30px;
+}
+span.property_asset{
+    margin: 10px 0;
+}
+span.property_asset, span.property_asset>span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span.property_asset>span{
+    gap:10px;
+}
+
+a.rdmlink {
+    background: #f14e4e;
+    padding: 8px 30px;
+    display: inline-block;
+    color: #fff !important;
+    border-radius: 5px;
+}
+a.rdmlink:hover {
+    background:#8a57ea
+}
+
+/* single Prorperty */
+.single_property_banner h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.property-container{
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+    max-width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+span.address_property {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    background: #0000007d;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.price_wrwpper {
+    padding: 40px;
+    background: #311700cf;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 15px 10px #654600;
+}
+span.wrap-title {
+    color: #ffffff;
+    display: block;    
+}
+span.property_price {
+    color: #88ff88;
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    margin-bottom: 30px;
+}
+.contact-btn a {
+    display: block;
+    background: #8a57ea;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.phone_number, .phone_number a {
+    display: flex;
+    gap: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.item_ele{
+    color: #01e29e;
+    font-size: 52px;
+    display: block;
+    line-height: 52px;
+    text-transform: capitalize;
+}
+/*--------------------------- 
+Responsive CSS here 
+*
+*   Remember these queries are a good start
+*   but media queries go much deeper than this.
+*
+---------------------------*/
+/*
+Medium/Large Screens 
+*/
+@media only screen and (max-width: 1430px) {
+
+}
+/*
+Medium Screens 
+*/
+@media only screen and (max-width: 1280px) {
+
+}
+/*
+Large Tablet Screens 
+*/
+@media only screen and (max-width: 980px) {
+
+}
+/*
+Medium Tablet Screens 
+*/
+@media only screen and (max-width: 768px) {
+    .py-250{
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    .single_property_banner h1{
+        font-size: 32px;
+    }
+}
+/*
+Small Tablet/Largest Phone Screens 
+*/
+@media only screen and (max-width: 600px) {
+
+}
+/*
+Large Phone Screens 
+*/
+@media only screen and (max-width: 480px) {
+
+}
